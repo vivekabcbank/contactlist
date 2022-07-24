@@ -135,6 +135,7 @@ SWAGGER_SETTINGS = {
             'in': 'header',
         }
     },
+    'SUPPORTED_SUBMIT_METHODS' : ['get', 'post', 'put', 'delete', 'patch'],
 }
 
 django_heroku.settings(locals())
